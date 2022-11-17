@@ -4,6 +4,7 @@ import {mode} from "@chakra-ui/theme-tools";
 export default extendTheme({
   colors: {
     primary: theme.colors.twitter,
+    secundary: "#16181c",
   },
   styles: {
     global: (props) => ({
