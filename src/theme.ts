@@ -1,5 +1,5 @@
-import {extendTheme, theme} from "@chakra-ui/react";
-import {mode} from "@chakra-ui/theme-tools";
+import { extendTheme, theme } from "@chakra-ui/react";
+import { mode } from "@chakra-ui/theme-tools";
 
 export default extendTheme({
   colors: {
@@ -7,7 +7,7 @@ export default extendTheme({
     secundary: "#16181c",
   },
   styles: {
-    global: (props) => ({
+    global: (props: any) => ({
       "html, body, #root": {
         color: mode(undefined, "whiteAlpha.900")(props),
         height: "100%",
@@ -48,7 +48,7 @@ export default extendTheme({
         },
       },
       variants: {
-        solid: (props) => ({
+        solid: (props: any) => ({
           backgroundColor: `${props.colorScheme}.500`,
           color: mode(undefined, "white")(props),
           fontWeight: "bold",
@@ -56,7 +56,7 @@ export default extendTheme({
             backgroundColor: `${props.colorScheme}.600`,
           },
         }),
-        outline: (props) => ({
+        outline: (props: any) => ({
           borderColor: `${props.colorScheme}.500`,
           color: mode(undefined, `${props.colorScheme}.500`)(props),
           _hover: {
