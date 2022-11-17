@@ -30,7 +30,7 @@ interface listLink {
 
 const LINKS: listLink[] = [
   {
-    href: "/home",
+    href: "/",
     text: "Inicio",
     activeIcon: BsHouseFill,
     inactiveIcon: BsHouse,

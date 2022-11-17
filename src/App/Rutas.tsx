@@ -5,7 +5,7 @@ import FeedScreen from "../pages/FeedScreen"
 const Rutas: React.FC = () => {
   return (
     <Routes>
-        <Route path="/home" element={<FeedScreen/>}  />
+        <Route path="/" element={<FeedScreen/>}  />
 
     </Routes>
   );
